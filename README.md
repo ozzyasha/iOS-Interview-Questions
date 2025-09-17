@@ -284,7 +284,7 @@ if let number = myNumber {
 
 ```swift
 func increment(number: Int) -> Int {
-    guard number >= 10 else {
+    guard number <= 10 else {
         return number
     }
     
